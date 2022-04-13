@@ -1,0 +1,123 @@
+.app {
+    display: flex;
+}
+
+.left-layout {
+    width: 240px;
+    height: 100vh;
+    background: green;
+}
+
+.right-layout {
+    flex: 1;
+}
+
+.right-layout__header {
+    height: 112px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-top {
+    height: 56px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.header-top__middle {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+
+.header-top__search {
+    width: 634px;
+    height: 38px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.header-top__input {
+    flex: 1;
+    height: 100%;
+    outline: none;
+    border: none;
+    color: #9e9e9e;
+    font-size: 16px;
+    padding: 4px 8px;
+}
+
+.header-top__input:focus {
+    border: 1px solid #065fd4;
+}
+
+.header-top__keyboard {
+    position: absolute;
+    right: 4px;
+    width: 42px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #666666;
+}
+
+.header-top__keyboard:hover {
+    cursor: pointer;
+    color: #000;
+}
+
+.header-top__wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    position: relative;
+}
+
+.header-top__search-btn {
+    width: 60px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #ccc;
+    font-size: 16px;
+    color: #666666;
+}
+
+.header-top__search-btn:hover {
+    cursor: pointer;
+    color: #000;
+    background: #f8f8f8;
+}
+
+.header-top__voice {
+    background: #f9f9f9;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.header-top__right {
+    width: 200px;
+    background: green;
+    height: 100%;
+    margin-left: auto;
+}
+
+.header-bottom {
+}
+
+.right-layout__body {
+}
